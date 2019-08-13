@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+    <ImageView
+            android:id="@+id/avatar"
+            android:layout_marginTop="4dp"
+            android:layout_width="80dp"
+            tools:src="@mipmap/ic_launcher"
+            android:layout_height="80dp"/>
+
+    <TextView
+            android:gravity="center"
+            android:textColor="@color/item_name"
+            android:textSize="14sp"
+            android:id="@+id/tvName"
+            android:layout_marginTop="4dp"
+            android:text="Alessandro Barreto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tvComment"
+            android:layout_marginTop="4dp"
+            android:text="Comentario test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
